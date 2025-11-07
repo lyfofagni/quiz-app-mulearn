@@ -11,7 +11,7 @@
       const QUESTIONS = [
         { id: 1, text: "Which language runs in a web browser?", choices: ["Java", "C#", "JavaScript", "Python"], answer: 2 },
         { id: 2, text: "What does CSS stand for?", choices: ["Central Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style System"], answer: 1 },
-        { id: 3, text: "Which HTML tag is used for the largest heading?", choices: ["<head>", "<h1>", "<heading>", "<header>"], answer: 1 },
+        { id: 3, text: "Which HTML tag is used for the largest heading?", choices: ["< head >", "< h1 >", "< heading >", "< header >"], answer: 1 },
         { id: 4, text: "Which method can be used to find an element by its ID in JavaScript?", choices: ["document.querySelectorAll()", "document.getElementById()", "document.getElementsByClassName()", "document.find()"], answer: 1 }
       ];
 
