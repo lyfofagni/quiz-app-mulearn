@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Local Quiz App</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="card" role="application" aria-label="Quiz App">
+<div class="header">
+<div>
+<h1>Quick Quiz</h1>
+<div class="meta">One question at a time · Immediate feedback</div>
+<div class="progress" aria-hidden="true"><i id="progressBar"></i></div>
+</div>
+<div style="text-align:right">
+<div id="scoreMeta" class="meta">Score: 0</div>
+<div id="qCount" class="meta">Question 0 / 0</div>
+</div>
+</div>
+
+
+<main>
+<div id="quizArea">
+<div id="questionText" class="question">Loading...</div>
+<div id="choices" class="choices" role="list"></div>
+
+
+<div class="controls">
+<button id="nextBtn" class="btn secondary" disabled>Next</button>
+<div style="display:flex;gap:8px;align-items:center">
+<button id="restartBtn" class="btn" style="display:none">Restart</button>
+</div>
+</div>
+
+
+<div id="results" class="results" style="display:none">
+<div id="finalScore" style="font-size:18px;font-weight:700"></div>
+<div id="finalSummary" class="summary"></div>
+</div>
+</div>
+</main>
+
+
+<footer>
+Built with plain HTML/CSS/JS — questions stored locally. Use the Restart button to retake.
+</footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
